@@ -99,15 +99,16 @@ p {
 }
 
 #mid-section {
-  background-image: url(../IMAGES/photo-1.jpg);
+  background: url(../IMAGES/photo-1.jpg) no-repeat;
   float: left;
 }
 
 .information {
   background-color: #333333;
   padding: 90px 0px;
-  max-width: 50%;
-  overflow: auto;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
   float: right;
   text-align: center;
 }
@@ -143,20 +144,6 @@ p {
   cursor: pointer;
 }
 
-#feature i {
-  color: #333333;
-}
-
-#feature h3 {
-  color: #333333;
-  padding-top: 10px;
-}
-
-#feature p {
-  padding: 15px;
-  color: #333333;
-}
-
 .row1 {
   width: 33.3%;
   background-color: #f4f4f4;
@@ -179,6 +166,20 @@ p {
   padding: 60px 50px 40px 40px;
   text-align: center;
   float: right;
+}
+
+#feature i {
+  color: #333333;
+}
+
+#feature h3 {
+  color: #333333;
+  padding-top: 10px;
+}
+
+#feature p {
+  padding: 15px;
+  color: #333333;
 }
 
 footer {
