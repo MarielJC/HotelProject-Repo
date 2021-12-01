@@ -88,3 +88,36 @@
   float: none;
   margin: auto;
 }
+
+#form {
+  margin: 5%;
+}
+
+.form-wrap h1 {
+  text-align: center;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+}
+
+#info-section {
+  padding: 30px;
+}
+
+#info-section .left,
+#info-section .middle {
+  float: none;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: #444 dotted 1px;
+}
+
+#info-section .right {
+  float: none;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

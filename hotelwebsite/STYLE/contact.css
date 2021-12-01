@@ -56,14 +56,12 @@ a {
 
 #form {
   height: 640px;
+  margin-left: 220px;
 }
 
 .form-wrap {
-  display: block;
-  max-width: 1100px;
-  margin: auto;
+  width: 100%;
   line-height: 2em;
-  padding-left: 20px;
 }
 
 .form-wrap span {
@@ -86,7 +84,7 @@ label {
 }
 
 .form-group input {
-  width: 1050px;
+  width: 80%;
   padding: 10px;
 }
 
