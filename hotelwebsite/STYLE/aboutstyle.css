@@ -54,55 +54,72 @@ a {
   color: rgb(247, 192, 129);
 }
 
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
 #heading {
   background-color: #f4f4f4;
-  padding-top: 30px;
-  padding-bottom: 5px;
-  padding-left: 240px;
-  padding-right: 5px;
+  width: 100%;
+  min-height: 100%;
+  float: right;
 }
 
-img {
-  width: 400px;
-  height: 300px;
+#heading .info-right {
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+
+.info-right img {
+  width: 50%;
   border-radius: 50%;
-  display: inline-block;
-  padding: 10px 10px;
-  margin-top: -10px;
-  margin-left: 50px;
+  display: block;
+  margin: auto;
 }
 
-.about-text {
+.about-text-left {
   float: left;
-  max-width: 43%;
-  font-size: 17px;
+  width: 50%;
+  min-height: 100%;
+  margin: auto;
+  padding-left: 50px;
 }
 
 h1 #about {
   color: rgb(247, 192, 129);
 }
 
-.about-text h1 {
+.about-text-left h1 {
   font-size: 40px;
   padding-bottom: 10px;
 }
 
-.about-text p {
+.about-text-left p {
   padding-top: 20px;
   padding-right: 20px;
 }
 
 #section {
   background-image: url(../IMAGES/test-bg.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 600px;
+  background-position: center center;
+  height: 100%;
+  padding-bottom: 200px;
+  max-width: 100%;
 }
 
 #section h1 {
   text-align: center;
   color: white;
-  padding-top: 100px;
+  padding-top: 400px;
   font-size: 40px;
 }
 
@@ -120,6 +137,7 @@ h1 #about {
   float: center;
   padding: 20px;
   font-size: 17px;
+  margin-left: 13%;
 }
 
 .comment1 img {
@@ -127,6 +145,7 @@ h1 #about {
   height: 12%;
   float: left;
   margin: 2px;
+  border-radius: 50%;
 }
 
 .comment2 {
@@ -143,6 +162,7 @@ h1 #about {
   float: center;
   padding: 20px;
   font-size: 17px;
+  margin-left: 13%;
 }
 
 .comment2 img {
@@ -150,6 +170,7 @@ h1 #about {
   height: 12%;
   float: left;
   margin: 2px;
+  border-radius: 50%;
 }
 
 footer {
